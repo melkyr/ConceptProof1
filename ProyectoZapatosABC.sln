@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZapatosABCLoginCrearProducto", "ZapatosABCLoginCrearProducto\ZapatosABCLoginCrearProducto.csproj", "{93113D24-A376-4122-8949-1CA422FF4A68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZapatosABCDataLibrary", "ZapatosABCDataLibrary\ZapatosABCDataLibrary.csproj", "{CE0A0100-7B1B-4807-92D3-DBEAC3BBB4B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{93113D24-A376-4122-8949-1CA422FF4A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93113D24-A376-4122-8949-1CA422FF4A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93113D24-A376-4122-8949-1CA422FF4A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE0A0100-7B1B-4807-92D3-DBEAC3BBB4B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0A0100-7B1B-4807-92D3-DBEAC3BBB4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0A0100-7B1B-4807-92D3-DBEAC3BBB4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0A0100-7B1B-4807-92D3-DBEAC3BBB4B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
