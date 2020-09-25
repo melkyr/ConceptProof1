@@ -25,6 +25,15 @@ namespace ZapatosABCLoginCrearProducto
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            ////Custom Scripts
+            //bundles.Add(new ScriptBundle("~/bundles/custom").Include(
+            //         "~/Scripts/custom/global.js"));
+
+            ////Custom CSS
+            //bundles.Add(new StyleBundle("~/Content/css").Include(
+            //          "~/Content/custom/colorlib-regform.css"));
+
         }
     }
 }
