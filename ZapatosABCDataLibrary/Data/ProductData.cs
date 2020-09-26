@@ -30,24 +30,24 @@ namespace ZapatosABCDataLibrary.Data
             p.Add("Category", product.Category);
             p.Add("Id", DbType.Int32, direction: ParameterDirection.Output);
 
-            await _dataAccess.SaveData("dbo.Products_Insert", p, _connectionString.SqlConnectionName);
+            await _dataAccess.SaveData("dbo.spProducts_Insert", p, _connectionString.SqlConnectionName);
             return p.Get<int>("Id");
         }
 
         public Task<int> UpdateProductName(int productId, string productName)
         {
-            return _dataAccess.SaveData("dbo.Products_UpdateProductName", new { Id = productId, ProductName = productName }, _connectionString.SqlConnectionName);
+            return _dataAccess.SaveData("dbo.spProducts_UpdateProductName", new { Id = productId, ProductName = productName }, _connectionString.SqlConnectionName);
 
         }
 
         public Task<int> DeleteProduct(int productId)
         {
-            return _dataAccess.SaveData("dbo.Products_Delete", new { Id = productId }, _connectionString.SqlConnectionName);
+            return _dataAccess.SaveData("dbo.spProducts_Delete", new { Id = productId }, _connectionString.SqlConnectionName);
         }
 
         public async Task<ProductModel> GetProductById(int productId)
         {
-            var records = await _dataAccess.LoadData<ProductModel, dynamic>("dbo.Products_GetById", new { Id = productId }, _connectionString.SqlConnectionName);
+            var records = await _dataAccess.LoadData<ProductModel, dynamic>("dbo.spProducts_GetById", new { Id = productId }, _connectionString.SqlConnectionName);
             return records.FirstOrDefault();
 
         }

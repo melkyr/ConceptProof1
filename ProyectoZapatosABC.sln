@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZapatosABCLoginCrearProducto", "ZapatosABCLoginCrearProducto\ZapatosABCLoginCrearProducto.csproj", "{93113D24-A376-4122-8949-1CA422FF4A68}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZapatosABCDataLibrary", "ZapatosABCDataLibrary\ZapatosABCDataLibrary.csproj", "{CE0A0100-7B1B-4807-92D3-DBEAC3BBB4B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZapatosABCWebAPI", "ZapatosABCWebAPI\ZapatosABCWebAPI.csproj", "{617FB1AE-B199-45AD-899A-231C8889E2FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZapatosABCWebAPI", "ZapatosABCWebAPI\ZapatosABCWebAPI.csproj", "{617FB1AE-B199-45AD-899A-231C8889E2FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZapatosABCMVCProject", "ZapatosABCMVCProject\ZapatosABCMVCProject.csproj", "{E2B4E3BE-213A-42A2-B1C3-28B8DBC2A8CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{93113D24-A376-4122-8949-1CA422FF4A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93113D24-A376-4122-8949-1CA422FF4A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93113D24-A376-4122-8949-1CA422FF4A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93113D24-A376-4122-8949-1CA422FF4A68}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CE0A0100-7B1B-4807-92D3-DBEAC3BBB4B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CE0A0100-7B1B-4807-92D3-DBEAC3BBB4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE0A0100-7B1B-4807-92D3-DBEAC3BBB4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{617FB1AE-B199-45AD-899A-231C8889E2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{617FB1AE-B199-45AD-899A-231C8889E2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{617FB1AE-B199-45AD-899A-231C8889E2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2B4E3BE-213A-42A2-B1C3-28B8DBC2A8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B4E3BE-213A-42A2-B1C3-28B8DBC2A8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B4E3BE-213A-42A2-B1C3-28B8DBC2A8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B4E3BE-213A-42A2-B1C3-28B8DBC2A8CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
