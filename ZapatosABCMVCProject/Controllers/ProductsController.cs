@@ -28,7 +28,7 @@ namespace ZapatosABCMVCProject.Controllers
         {
             return View();
         }
-
+        [Authorize]
         // GET: Products/Create
         public ActionResult Create()
         {
@@ -37,11 +37,10 @@ namespace ZapatosABCMVCProject.Controllers
         }
 
         // POST: Products/Create
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult> Create(ProductModel productToCreate)
         {
-
-   
 
                 await _productData.CreateProduct(productToCreate);
                 return View();
